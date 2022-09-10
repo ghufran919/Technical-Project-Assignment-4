@@ -12,9 +12,9 @@ function Navbar() {
             <Link to="/">Home</Link>
             <Link to="">Article</Link>
             <Link to="">Portfolio</Link>
-            <Link to="">About</Link>
-<Link to="http://www.instagram.com/ghufran919"><img src= { Icon } alt="instagram"></img>
-</Link> 
+            <Link to="/About">About</Link>
+<a href="http://www.instagram.com/ghufran919"><img src= { Icon } alt="instagram"></img>
+</a> 
         </div>
     </nav>
 </body>
