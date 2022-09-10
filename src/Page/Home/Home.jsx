@@ -2,13 +2,15 @@ import "../Home/Home.css";
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Photo from "../../assets/pp.png";
+import "../Home/Home.css";
 
 function Home() {
   return (
     <>
     <Navbar />
       <br />
-    <section classname="hero-container">
+  <body>
+    <section class="hero-container">
         <div>
             <div>
                 <h1>Partner kamu yang terpercaya
@@ -18,6 +20,7 @@ function Home() {
         </div>
         <img src={ Photo } alt="hero"></img>
     </section>
+    </body>
     </>
   );
 }
