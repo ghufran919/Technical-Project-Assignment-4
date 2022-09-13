@@ -1,0 +1,40 @@
+.what-is-container {
+    height: 600px;
+    padding: 0 10%;
+    display: flex;
+    margin: 40px 0;
+  }
+  
+  .what-is-container h1 {
+    font-size: 60px;
+  }
+  
+  .what-is-container p {
+    color: var(--gray);
+    font-size: 16px;
+  }
+  
+  .what-is-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 48%;
+    background: yellow;
+    background: var(--grayLight);
+  }
+  
+  .what-is-container > div > div {
+    width: 400px;
+  }
+  
+  .what-is-container > img {
+    width: 52%;
+    background: red;
+  }
+  
+  .what-is-container > div > .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  

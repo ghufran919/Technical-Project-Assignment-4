@@ -11,10 +11,10 @@ function Navbar() {
       <nav class="navbar">
         <h1>Ahmad Ghufran Akbar</h1>
         <div class="nav-menu">
-          <Link to="/">Home</Link>
-          <Link to="/Article">Article</Link>
-          <Link to="/Portfolio">Portfolio</Link>
-          <Link to="/About">About</Link>
+          <a to="/">Home</a>
+          <a href="#article">Article</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#about">About</a>
           <a href="http://www.instagram.com/ghufran919"><img src= { Icon } alt="instagram"></img>
           </a>
         </div>
