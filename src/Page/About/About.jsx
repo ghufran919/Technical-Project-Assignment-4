@@ -1,23 +1,24 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
+import "../../Page/Main.css";
 import "../About/About.css";
 
-function About () {
+function About() {
   return (
     <>
-    <Navbar />
-      <br />
-  <body>
-    <section class="hero-container">
+  <section class="description-container">
         <div>
             <div>
-                <h1>Tentang saya
-                </h1>
-                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+                <h2> tentang saya</h2>
+                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. 
+                  Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+            </div>
+            <div class="description-left-footer">
+                <p>May 20th 2020</p>
+                <p class="font-weight-bold">Read more</p>
             </div>
         </div>
-           </section>
-</body>
+        <img src="assets/desc.png" alt="desc"></img>
+        </section>
     </>
   );
 }

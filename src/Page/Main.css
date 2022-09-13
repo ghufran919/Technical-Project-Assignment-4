@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap);
+
+:root {
+    --darkGray: #2d3748;
+    --gray: #4a5568;
+    --grayLight: #f7fafc;
+    --primary: #6b46c1;
+  }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
