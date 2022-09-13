@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Photo from "../../assets/profile-picture.png";
-import Portfolio from "../../Page/About/About";
+import About from "../../Page/About/About";
+import Footer from "../../components/Footer/Footer";
 import "../../Page/Main.css";
 import "../Home/Home.css";
 
@@ -21,6 +22,7 @@ function Home() {
     </section>
     < About />
     </body>
+    < Footer />
     </>
   );
 }
