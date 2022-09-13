@@ -11,10 +11,10 @@ function Home() {
     <>
     <Navbar />
   <body>
-    <section class="hero-container">
+    <section className="hero-container">
         <div>
             <div>
-                <h1 class="title">Partner kamu yang terpercaya</h1>
+                <h1 className="title">Partner kamu yang terpercaya</h1>
                 <p>Buat apa belajar web kalau bisa saya buatin?</p>
             </div>
         </div>
