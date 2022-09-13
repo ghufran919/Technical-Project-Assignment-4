@@ -2,45 +2,42 @@
 import React from "react";
 import "../../Page/Main.css";
 import "../Portfolio/Portfolio.css";
+import Card_1 from "../../assets/card1.png";
+import Card_2 from "../../assets/card2.png";
+import Card_3 from "../../assets/card3.png";
 
 function Portfolio() {
   return (
     <>
 <section class="content-container">
         <div class="card">
-            <img src="assets/card1.png" alt="card1"></img>
+            <img src= {Card_1 } alt="card1"></img>
             <div class="card-body">
-                <h3>tentang saya</h3>
-                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. 
-                  Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+                <h3>Project 1</h3>
+                <p>Personal Website dengan HTML dan CSS</p>
             </div>
             <div class="card-footer">
-                <p>Ahmad Ghufran Akbar</p>
-                <p class="font-weight-bold">Demo</p>
+                <a href="https://ahmadghufranakbar.netlify.app/" target="_blank" class="font-weight-bold">Demo</a>
             </div>
         </div>
         <div class="card">
-            <img src="assets/card2.png" alt="card2"></img>
+            <img src= { Card_2 } alt="card2"></img>
             <div class="card-body">
-                <h3>tentang saya</h3>
-                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. 
-                  Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+                <h3>Project 2</h3>
+                <p>Kalkulator Indeks Massa Tubuh</p>
             </div>
-            <div class="card-footer">
-                <p>Ahmad Ghufran Akbar</p>
-                <p class="font-weight-bold">Demo</p>
+            <div class="card-footer">    
+            <a href="https://indeksmassatubuh.netlify.app/" target="_blank" class="font-weight-bold">Demo</a>
             </div>
         </div>
         <div class="card">
-            <img src="assets/card3.png" alt="card3"></img>
+            <img src= { Card_3 } alt="card3"></img>
             <div class="card-body">
-                <h3>tentang saya</h3>
-                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. 
-                  Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+                <h3>Project 3</h3>
+                <p>Movie App dengan TMDB API</p>
             </div>
             <div class="card-footer">
-                <p>Ahmad Ghufran Akbar</p>
-                <p class="font-weight-bold">Demo</p>
+                <a href="https://skilmovie-ghufran919.netlify.app/" target="_blank" class="font-weight-bold">Demo</a>
             </div>
         </div>
     </section>

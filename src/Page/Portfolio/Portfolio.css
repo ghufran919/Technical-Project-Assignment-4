@@ -40,6 +40,11 @@
     color: var(--gray);
     font-size: 16px;
   }
+
+    .card a {
+    color: var(--gray);
+    font-size: 16px;
+  }
   
   .card > .card-footer {
     display: flex;
