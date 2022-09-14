@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Icon from "../../assets/instagram.svg";
 import "../../Page/Main.css";
 import "../Navbar/Navbar.css"
@@ -11,7 +10,7 @@ function Navbar() {
       <nav class="navbar">
         <h1>Ahmad Ghufran Akbar</h1>
         <div class="nav-menu">
-          <a to="/">Home</a>
+          <a href="/">Home</a>
           <a href="#article">Article</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#about">About</a>

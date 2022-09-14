@@ -7,9 +7,16 @@
   
   .what-is-container h1 {
     font-size: 60px;
+    text-align: left;
   }
   
   .what-is-container p {
+    color: var(--gray);
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .what-is-container a {
     color: var(--gray);
     font-size: 16px;
   }

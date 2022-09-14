@@ -2,22 +2,24 @@
 import React from "react";
 import "../../Page/Main.css";
 import "../Article/Article.css";
+import "../../Page/Media Queries.css";
+import Desc_2 from "../../assets/desc2.png";
 
 function Article() {
   return (
     <>
-<section class="what-is-container">
+<section className="what-is-container">
         <div>
             <div>
-                <h1>tentang saya</h1>
-                <p>Saya adalah mahasiswa Hubungan Internasional yang kebetulan suka dengan hal berbau teknologi. 
-                  Mengikuti perubahan teknologi serta prospek masa depan. Saya memutuskan untuk belajar coding di AMMAN Bootcamp. And the rest is history.</p>
+                <h1>Penstudi.id</h1>
+                <p>Mau cek web yang saya buat juga?</p>
+                <p>Pake Wordpress juga sih tapi gapapa hehe</p>
             </div>
-            <div class="footer">
-                <p class="font-weight-bold">Read more</p>
+            <div className="footer">
+                <a href="https://penstudi.id" target="_blank" className="font-weight-bold">Demo</a>
             </div>
         </div>
-        <img src="assets/desc2.png" alt="what-is"></img>
+        <img src= {Desc_2} alt="what-is"></img>
     </section>
     
 

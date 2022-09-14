@@ -14,7 +14,7 @@ function Portfolio() {
             <img src= {Card_1 } alt="card1"></img>
             <div class="card-body">
                 <h3>Project 1</h3>
-                <p>Personal Website dengan HTML dan CSS</p>
+                <p>Personal Website (HTML,CSS)</p>
             </div>
             <div class="card-footer">
                 <a href="https://ahmadghufranakbar.netlify.app/" target="_blank" class="font-weight-bold">Demo</a>
